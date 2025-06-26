@@ -1,0 +1,161 @@
+/* Reset dasar */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Helvetica Neue', 'Arial', sans-serif;
+  line-height: 1.6;
+  background-color: #f8f8f8;
+  color: #222;
+  padding: 20px;
+}
+
+/* Header */
+header {
+  background-color: #111;
+  color: #fff;
+  text-align: center;
+  padding: 60px 20px 40px;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.1rem;
+  color: #ccc;
+}
+
+/* Navigasi */
+nav {
+  background-color: #fff;
+  padding: 10px 0;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.1);
+  margin-bottom: 40px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 30px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #666;
+}
+
+/* Konten utama */
+main {
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
+
+.koleksi {
+  display: grid;
+  gap: 40px;
+}
+
+.produk {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.produk article {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.produk article:hover {
+  transform: translateY(-5px);
+}
+
+.produk img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.produk h3 {
+  margin-top: 15px;
+  font-size: 1.2rem;
+}
+
+.produk p {
+  font-size: 0.95rem;
+  margin: 10px 0 15px;
+  color: #555;
+}
+
+.produk a {
+  display: inline-block;
+  background-color: #111;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: background-color 0.3s ease;
+}
+
+.produk a:hover {
+  background-color: #333;
+}
+
+/* Halaman Koleksi Spesifik */
+section {
+  margin-bottom: 60px;
+}
+
+section img {
+  max-width: 100%;
+  margin: 20px 0;
+  border-radius: 10px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 30px 20px;
+  background-color: #111;
+  color: #fff;
+  margin-top: 60px;
+}
+
+footer a {
+  color: #aaa;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+footer a:hover {
+  color: #fff;
+}
+
+/* Responsif */
+@media screen and (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    gap: 15px;
+  }
+}
