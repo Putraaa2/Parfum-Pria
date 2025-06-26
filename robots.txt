@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://putraaa2.github.io/Parfum-Pria/sitemap.xml
