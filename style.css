@@ -186,3 +186,32 @@ footer a:hover {
   height: auto;
   border-radius: 50%;
 }
+.header-with-logo {
+  background-color: #fff;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid #eee;
+}
+
+.logo-title {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.logo {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.judul-deskripsi h1 {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.judul-deskripsi p {
+  font-size: 0.9rem;
+  color: #555;
+  margin: 0.25rem 0 0;
+}
