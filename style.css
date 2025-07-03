@@ -208,11 +208,11 @@ footer a:hover {
 .judul-deskripsi h1 {
   font-size: 3 rem;
   margin: 0;
-  color: #152339;
+  color: #fff;
 }
 
 .judul-deskripsi p {
   font-size: 2rem;
-    color: black;
+    color: #fff;
     margin: 0.9rem
 }
