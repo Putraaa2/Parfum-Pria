@@ -187,13 +187,13 @@ footer a:hover {
   border-radius: 50%;
 }
 .header-with-logo {
-  background-color: #fff;
+  background-color: #fed54a;
   padding: 1rem 2rem;
   border-bottom: 1px solid #eee;
 }
 
 .logo-title {
-  display: flex;
+  display: grid;
   align-items: center;
   gap: 1rem;
 }
